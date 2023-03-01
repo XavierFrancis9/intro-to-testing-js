@@ -28,3 +28,13 @@ function isEven(x) {
         return false;
     }
 }
+
+function isVowel(input) {
+    if(typeof(input) !== 'string') {
+        return false;
+    } else if (input.toLowerCase() === "a" || input.toLowerCase() === "e" || input.toLowerCase() === "i" || input.toLowerCase() === "o" || input.toLowerCase() === "u") {
+        return true;
+    } else {
+        return false;
+    }
+}
