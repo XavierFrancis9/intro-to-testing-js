@@ -16,3 +16,15 @@ function sayHello(name) {
         return "Hello, World!";
     }
 }
+
+function isFive(name) {
+
+}
+
+function isEven(x) {
+    if (parseInt(x) && x % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
